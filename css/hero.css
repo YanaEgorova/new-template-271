@@ -37,8 +37,6 @@ a.contacts__item-text {
   transition: all 0.3s ease-in-out;
 }
 
-
-
 .phrase {
   padding: 10rem 0;
   text-align: center;
@@ -127,14 +125,14 @@ a.contacts__item-text {
     top: 50%;
     left: -5rem;
     transform: translate(0, -50%);
-    border: .5rem solid var(--main-bg-color);
-    -webkit-box-shadow: 0rem 0rem 0rem .5rem var(--second-brand-color);
-    -moz-box-shadow: 0rem 0rem 0rem .5rem var(--second-brand-color);
-    box-shadow: 0rem 0rem 0rem .5rem var(--second-brand-color);
+    border: 0.5rem solid var(--main-bg-color);
+    -webkit-box-shadow: 0rem 0rem 0rem 0.5rem var(--second-brand-color);
+    -moz-box-shadow: 0rem 0rem 0rem 0.5rem var(--second-brand-color);
+    box-shadow: 0rem 0rem 0rem 0.5rem var(--second-brand-color);
   }
 
   .phrase {
-    padding: 10rem 5rem 15rem;
+    padding: 10rem 5rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
